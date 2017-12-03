@@ -1,0 +1,65 @@
+.container {
+  margin: 1em 0 2em 0;
+}
+
+.search-bar {
+  background-color: #424242;
+  /*margin: 20px;*/
+  /*margin-bottom: 20px;*/
+  /*padding: 0;*/
+  padding: 6px 0 4px 0;
+  /*text-align: center;*/
+}
+
+.search-bar .container {
+  margin: 0 auto;
+}
+
+.search-bar .logo {
+  cursor: pointer;
+  float: left;
+  display: inline-block;
+  margin: 0 3em 0 1em;
+  /*text-align: left;*/
+}
+
+.search-bar .fa-bolt {
+  color: gold;
+}
+
+.search-bar .fa-twitter {
+  color: #03A9F4;
+}
+
+.search-bar .twitter {
+  cursor: pointer;
+  float: right;
+  display: inline-block;
+  margin: 0 1em 0 0;
+  /*text-align: left;*/
+}
+
+.search-bar input {
+  padding-left: 0.5em;
+  /*width: 75%;*/
+  width: 50%;
+}
+
+.video-item img {
+  max-width: 64px;
+}
+
+.video-detail .details {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #DDD;
+  border-radius: 4px;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #EEE;
+}
